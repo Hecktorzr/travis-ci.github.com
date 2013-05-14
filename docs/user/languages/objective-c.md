@@ -36,7 +36,7 @@ Projects that find this sufficient can use a very minimalistic .travis.yml file:
 
 ### Building an iOS Project
 
-Building an iOS project without Code Signing credentials requires specifying *iphonesimulator* as SDK. This can be set up using the *XCODEBUILD_SETTINGS* environment variable as follows:
+Building an iOS project requires specifying *iphonesimulator* as the SDK. This can be set up using the *XCODEBUILD_SETTINGS* environment variable as follows:
 
     env:
       - XCODEBUILD_SETTINGS="-sdk iphonesimulator"
@@ -47,3 +47,4 @@ This can be overridden as described in the [general build configuration](/docs/u
 
 ## Examples
 
+* [iOS Project in a subdirectory using the default script](https://github.com/Hecktorzr/TravisTest/blob/master/.travis.yml)
