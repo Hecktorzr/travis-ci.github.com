@@ -28,7 +28,7 @@ Travis CI is going to assume that your project is buildable by `xcodebuild`. How
 
     ~/travis-utils/osx-cibuild.sh
 
-The contents of this script can be found [in this Gist](https://gist.github.com/henrikhodne/73151fccea7af3201f63).
+The updated contents of this script can be found [here](https://github.com/travis-ci/travis-cookbooks/blob/osx/ci_environment/travis_build_environment/files/default/ci_user/travis-utils/osx-cibuild.sh).
 
 Projects that find this sufficient can use a very minimalistic .travis.yml file:
 
